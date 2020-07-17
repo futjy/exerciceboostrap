@@ -1,0 +1,55 @@
+.colornavbar {
+    background-color: #5d4384;
+}
+
+.colornav {
+    color: white;
+}
+
+.image {
+    width: 50%;
+    height: 200px;
+}
+
+h1 {
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.imglien {
+    margin: 0 5px 10px 0;
+}
+
+.titreh2 {
+    margin: 4% 0 4% 0;
+    font-size: 25px;
+    color: #5d4384;
+}
+
+a:hover {
+    color: gray;
+}
+
+
+/** 
+ * Bootstrap Submenu
+ * Inspired from: https://codepen.io/surjithctly/pen/PJqKzQ
+ */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu a::after {
+    transform: rotate(-90deg);
+    position: absolute;
+    right: 6px;
+    top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-left: .1rem;
+    margin-right: .1rem;
+}
